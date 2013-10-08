@@ -8,5 +8,11 @@ var height = 5;  //  the height of the rectangle
 var result = width * height + " " + "sq ft";  //  the width of the rectangle times the height, in this case it should be 35sq ft
 console.log(result);  //  Print out the result of 7 * 5 = 35
 
+//Dog Years find Sparky's age in dog years
+
+sparkyAge = 3;
+var sparkyDogAge = 7 * sparkyAge;
+console.log(sparkyDogAge);
+
 
 

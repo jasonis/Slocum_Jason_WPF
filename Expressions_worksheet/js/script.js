@@ -10,9 +10,20 @@ console.log(result);  //  Print out the result of 7 * 5 = 35
 
 //Dog Years find Sparky's age in dog years
 
-sparkyAge = 3;
-var sparkyDogAge = 7 * sparkyAge;
-console.log(sparkyDogAge);
+sparkyAge = 3;  // Sparky's age in human years
+var sparkyDogAge = 7 * sparkyAge;  // Sparky's age multiplied by the 7 times faster that dogs age
+console.log(sparkyDogAge);  //  Sparky is 3 human years old which is 21 in dog years.
+
+// Slice of the Pie part 1
+// how many slices of pizza will everyone at the party get
+
+slicesPerPizza = 8;  // this is the number of slices per pizza 8
+partyPeople = 20;  // there are 20 people ot the party
+pizzas = 5;  // they ordered 5 pizzas
+var slicesPerPerson = slicesPerPizza * pizzas / partyPeople;
+console.log(slicesPerPerson);
+
+
 
 
 

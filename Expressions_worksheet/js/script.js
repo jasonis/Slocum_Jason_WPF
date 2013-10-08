@@ -20,8 +20,23 @@ console.log(sparkyDogAge);  //  Sparky is 3 human years old which is 21 in dog y
 slicesPerPizza = 8;  // this is the number of slices per pizza 8
 partyPeople = 20;  // there are 20 people ot the party
 pizzas = 5;  // they ordered 5 pizzas
-var slicesPerPerson = slicesPerPizza * pizzas / partyPeople;
-console.log(slicesPerPerson);
+var slicesPerPerson = slicesPerPizza * pizzas / partyPeople; // 8 slices times 5 pizzas divided by 20 people
+console.log(slicesPerPerson);  // each person ate 2 slices of pizza at the party
+
+// Slice of the Pie part II
+// how many slices will Sparky get to eat if he is allowed to have the remainder
+
+slicesPerPizza = 8;  // this is the number of slices per pizza 8
+partyPeople = 20;  // there are 20 people ot the party
+pizzas = 5;  // they ordered 5 pizzas
+var totalSlices = slicesPerPizza * pizzas;  //8 slices per pizza times 5 pizzas
+console.log(totalSlices);  // there were 40 slices of pizza total
+var sparkySlices = totalSlices % 20;  // 40 slices divided by 20 people
+console.log(sparkySlices);  // Sorry sparky there is none left for you
+
+
+
+
 
 
 

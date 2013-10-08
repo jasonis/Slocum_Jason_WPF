@@ -34,6 +34,27 @@ console.log(totalSlices);  // there were 40 slices of pizza total
 var sparkySlices = totalSlices % 20;  // 40 slices divided by 20 people
 console.log(sparkySlices);  // Sorry sparky there is none left for you
 
+// Average Shopping Bill
+// find the average amount spent on groceries over the last 5 weeks
+
+var groceryBill = [22, 37, 39, 29, 57];  //  The amount spent on groceries over a 5 week period
+var averageBill = "$" + (groceryBill[0] + groceryBill[1] + groceryBill[2] + groceryBill[3] + groceryBill[4])/5;  //The total for each week added together and then divided by the number of weeks $184/5weeks
+console.log(averageBill);  // $36.8 is the average weekly grocery bill
+
+// discounts
+// find the discounted price for an item
+
+var shirt = 14;  //the shirt cost $14
+var discount = .10;  // there was a 10% discount
+var tax = .05  // The sales tax was 5%
+var discountAmount = shirt * discount;  //$14 times 10%       
+console.log(discountAmount); //The amount of the discount was $1.4000000000000001
+var discountedShirt = shirt - discountAmount;  // $14 minus the discount of $1.4 
+console.log(discountedShirt);  // The shirt after the discount was $12.6
+var taxAmount = discountedShirt * .05;  //The 12.6 shirt plus 5% sales tax
+console.log(taxAmount);  // The tax comes out to be .63
+var total = discountedShirt + taxAmount;  // The $12.6 shirt plus the .63 sales tax
+console.log(total);  //the total price of the $14 shirt minus the 10% discount plus 5% sales tax is $13.23
 
 
 

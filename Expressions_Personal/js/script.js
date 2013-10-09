@@ -7,7 +7,7 @@ var slicesEatenDaily = prompt("How many slices do you eat in a day?");  //How ma
 var slicesPerWeek = slicesEatenDaily * 7;  //multiply how many slices you eat in a day times 7 days in a week
 console.log("You ate " + slicesPerWeek + " slices of bread this week");  //this shows the total amount of slices you ate in a week
 
-var loavesPerWeek = slicesPerWeek / slicesPerLoaf;
+var loavesPerWeek = slicesPerWeek / slicesPerLoaf;  //divide the slicesPerWeek by the slicesPerLoaf to find out how many loaves you ate in a week
 console.log("You ate " + loavesPerWeek + " loaves of bread this week");
 
 var loavesPerYear = loavesPerWeek * 52;

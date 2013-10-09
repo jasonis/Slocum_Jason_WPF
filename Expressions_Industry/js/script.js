@@ -11,3 +11,4 @@ var screenSizes = [smartPhone, tablet, laptop, desktop, tv];
 console.log(screenSizes);
 var totalSize = Number(smartPhone) + Number(tablet) + Number(laptop) + Number(desktop) + Number(tv);
 console.log(totalSize + " inches");
+var averageSize = totalSize / 5;

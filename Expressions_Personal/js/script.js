@@ -13,5 +13,5 @@ console.log("You ate " + loavesPerWeek + " loaves of bread this week");  //Print
 var loavesPerYear = loavesPerWeek * 52;  //How many loaves you eat in a week times 52 weeks in a year
 console.log("You ate " + loavesPerYear + " loaves of bread this year");  //Printout for how many loaves you eat in a year
 
-var daysPerLoaf = 365 / loavesPerYear;
+var daysPerLoaf = 365 / loavesPerYear;  //number of days in a year divided by the number of loaves you ate in a year
 console.log("You ate one loaf of bread every " + daysPerLoaf + " days");

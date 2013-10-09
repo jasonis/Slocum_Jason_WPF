@@ -8,3 +8,4 @@ var laptop = prompt("What is the screen size of your laptop?");
 var desktop = prompt("What is the screen size of your desktop?");
 var tv = prompt("What is the screen size of your smart TV?");
 var screenSizes = [smartPhone, tablet, laptop, desktop, tv];
+console.log(screenSizes);

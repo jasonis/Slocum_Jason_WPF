@@ -9,3 +9,4 @@ console.log("You ate " + slicesPerWeek + " slices of bread this week");
 var loavesPerWeek = slicesPerWeek / slicesPerLoaf;
 console.log("You ate " + loavesPerWeek + " loaves of bread this week")
 var loavesPerYear = loavesPerWeek * 52;
+console.log("You ate " + loavesPerYear + " loaves of bread this year")

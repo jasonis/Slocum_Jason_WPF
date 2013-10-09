@@ -6,3 +6,4 @@ var smartPhone = prompt("What is the screen size of your smart phone?");
 var tablet = prompt("What is the screen size of your tablet?");
 var laptop = prompt("What is the screen size of your laptop?");
 var desktop = prompt("What is the screen size of your desktop?");
+var tv = prompt("What is the screen size of your smart TV?");

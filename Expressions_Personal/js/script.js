@@ -8,7 +8,7 @@ var slicesPerWeek = slicesEatenDaily * 7;  //multiply how many slices you eat in
 console.log("You ate " + slicesPerWeek + " slices of bread this week");  //this shows the total amount of slices you ate in a week
 
 var loavesPerWeek = slicesPerWeek / slicesPerLoaf;  //divide the slicesPerWeek by the slicesPerLoaf to find out how many loaves you ate in a week
-console.log("You ate " + loavesPerWeek + " loaves of bread this week");
+console.log("You ate " + loavesPerWeek + " loaves of bread this week");  //Printout for the total number of loaves you had in a week
 
 var loavesPerYear = loavesPerWeek * 52;
 console.log("You ate " + loavesPerYear + " loaves of bread this year");

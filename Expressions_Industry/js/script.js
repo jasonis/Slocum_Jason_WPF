@@ -12,3 +12,4 @@ console.log(screenSizes);
 var totalSize = Number(smartPhone) + Number(tablet) + Number(laptop) + Number(desktop) + Number(tv);
 console.log(totalSize + " inches");
 var averageSize = totalSize / 5;
+console.log("Your average computer screen in your house is " + averageSize + " inches");

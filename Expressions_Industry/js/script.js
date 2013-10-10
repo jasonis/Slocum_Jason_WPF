@@ -4,7 +4,7 @@
 //  We know how popular responsive design is and how it is great for viewing sites on many different size screens
 //  but what is the average size screen out of all of them we use all day?
 
-var smartPhone = prompt("What is the screen size of your smart phone in inches?");
+var smartPhone = prompt("What is the screen size of your smart phone in inches?");// this var represents the users phone screen size
 var tablet = prompt("What is the screen size of your tablet in inches?");
 var laptop = prompt("What is the screen size of your laptop in inches?");
 var desktop = prompt("What is the screen size of your desktop in inches?");

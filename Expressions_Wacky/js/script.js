@@ -3,7 +3,7 @@
 
 var currentLength = prompt("How long, in inches, is your current beard?");// How long is your beard currently if you have one already
 var growthRate = prompt("How long, in inches, does your beard grow in a week?");// How much would you say that your beard grows in a week?
-var duration = prompt("How many weeks will you be letting your beard grow?");
+var duration = prompt("How many weeks will you be letting your beard grow?");// How long can you leave it alone before you cut it?
 var newGrowth = growthRate * duration;
 var result = Number(newGrowth) + Number(currentLength);
 console.log("If I were to wait " + duration + " weeks, my beard would grow to a length of " + result + " inches.");

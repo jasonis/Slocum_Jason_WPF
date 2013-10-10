@@ -11,7 +11,7 @@ var desktop = prompt("What is the screen size of your desktop in inches?");//  t
 var tv = prompt("What is the screen size of your smart TV in inches?");//  this var represents the users smart TV screen size
 var screenSizes = [smartPhone, tablet, laptop, desktop, tv];  // this array contains the sizes of all of the devices that the user entered
 console.log(screenSizes);// printout of the list of screen sizes that the user has
-var totalSize = Number(smartPhone) + Number(tablet) + Number(laptop) + Number(desktop) + Number(tv);
+var totalSize = Number(smartPhone) + Number(tablet) + Number(laptop) + Number(desktop) + Number(tv);// this var takes the array and uses casting to add all of the sizes together 
 console.log(totalSize + " inches");
 var averageSize = totalSize / 5;
 console.log("Your average computer screen in your house is " + averageSize + " inches");

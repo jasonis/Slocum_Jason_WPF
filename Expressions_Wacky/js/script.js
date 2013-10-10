@@ -1,3 +1,7 @@
+//          Jason Slocum
+//          10.9.13
+//          Expressions_Wacky
+
 // JavaScript
 // The question at hand is "How long will my beard grow in a set time?" and "How long will it be after one year?"
 

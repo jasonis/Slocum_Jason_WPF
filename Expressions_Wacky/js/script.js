@@ -1,7 +1,7 @@
 // JavaScript
 // The question at hand is "How long will my beard grow in a set time?" and "How long will it be after one year?"
 
-var currentLength = prompt("How long, in inches, is your current beard?");
+var currentLength = prompt("How long, in inches, is your current beard?");// How long is your beard currently if you have one already
 var growthRate = prompt("How long, in inches, does your beard grow in a week?");
 var duration = prompt("How many weeks will you be letting your beard grow?");
 var newGrowth = growthRate * duration;

@@ -6,6 +6,6 @@ var growthRate = prompt("How long, in inches, does your beard grow in a week?");
 var duration = prompt("How many weeks will you be letting your beard grow?");// How long can you leave it alone before you cut it?
 var newGrowth = growthRate * duration;//  this will show how much new growth you have after your chosen length of time
 var result = Number(newGrowth) + Number(currentLength);// this will show what length your beard will be overall after your chosen amount of time new growth plus existing beard
-console.log("If I were to wait " + duration + " weeks, my beard would grow to a length of " + result + " inches.");
+console.log("If I were to wait " + duration + " weeks, my beard would grow to a length of " + result + " inches.");// printout of how long your beard would be after the desired length of time
 var yearLength = growthRate * 52 + Number(currentLength);
 console.log("After one year your beard would be " + yearLength + " inches long");

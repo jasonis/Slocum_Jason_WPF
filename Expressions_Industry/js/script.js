@@ -5,7 +5,7 @@
 //  but what is the average size screen out of all of them we use all day?
 
 var smartPhone = prompt("What is the screen size of your smart phone in inches?");// this var represents the users phone screen size
-var tablet = prompt("What is the screen size of your tablet in inches?");
+var tablet = prompt("What is the screen size of your tablet in inches?");// this var represents the users tablet screen size
 var laptop = prompt("What is the screen size of your laptop in inches?");
 var desktop = prompt("What is the screen size of your desktop in inches?");
 var tv = prompt("What is the screen size of your smart TV in inches?");

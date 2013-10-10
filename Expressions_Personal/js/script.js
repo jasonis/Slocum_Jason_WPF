@@ -1,3 +1,7 @@
+//          Jason Slocum
+//          10.9.13
+//          Expressions_Personal
+
 //  JavaScript
 
 //How many loaves of bread do I eat in a year?

@@ -1,3 +1,7 @@
+//          Jason Slocum
+//          10.9.13
+//          Expressions_Industry
+
 //  JavaScript
 //  What is the average monitor size in someone's home?
 //  This could be anything from smartphones and tablets to laptops, desktops and big screens

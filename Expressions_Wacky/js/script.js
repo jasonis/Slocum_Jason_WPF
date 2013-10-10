@@ -7,4 +7,5 @@ var duration = prompt("How many weeks will you be letting your beard grow?");
 var newGrowth = growthRate * duration;
 var result = Number(totalLength) + Number(currentLength);
 console.log("If I were to wait " + duration + " weeks, my beard would grow to a length of " + result + " inches.");
-var oneYear = 52/duration; 
+var oneYear = 52/duration;
+var yearLength = oneYear + result;

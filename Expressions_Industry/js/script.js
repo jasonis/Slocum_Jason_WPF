@@ -7,7 +7,7 @@
 var smartPhone = prompt("What is the screen size of your smart phone in inches?");// this var represents the users phone screen size
 var tablet = prompt("What is the screen size of your tablet in inches?");// this var represents the users tablet screen size
 var laptop = prompt("What is the screen size of your laptop in inches?");// this var represents the users laptop screen size
-var desktop = prompt("What is the screen size of your desktop in inches?");
+var desktop = prompt("What is the screen size of your desktop in inches?");//  this var represents the users desktop screen size
 var tv = prompt("What is the screen size of your smart TV in inches?");
 var screenSizes = [smartPhone, tablet, laptop, desktop, tv];
 console.log(screenSizes);

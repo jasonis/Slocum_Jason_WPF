@@ -8,7 +8,7 @@ var smartPhone = prompt("What is the screen size of your smart phone in inches?"
 var tablet = prompt("What is the screen size of your tablet in inches?");// this var represents the users tablet screen size
 var laptop = prompt("What is the screen size of your laptop in inches?");// this var represents the users laptop screen size
 var desktop = prompt("What is the screen size of your desktop in inches?");//  this var represents the users desktop screen size
-var tv = prompt("What is the screen size of your smart TV in inches?");
+var tv = prompt("What is the screen size of your smart TV in inches?");//  this var represents the users smart TV screen size
 var screenSizes = [smartPhone, tablet, laptop, desktop, tv];
 console.log(screenSizes);
 var totalSize = Number(smartPhone) + Number(tablet) + Number(laptop) + Number(desktop) + Number(tv);

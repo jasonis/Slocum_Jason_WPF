@@ -1,6 +1,8 @@
 //  JavaScript
 //  What is the average monitor size in someone's home?
 //  This could be anything from smartphones and tablets to laptops, desktops and big screens
+//  We know how popular responsive design is and how it is great for viewing sites on many different size screens
+//  but what is the average size screen out of all of them we use all day?
 
 var smartPhone = prompt("What is the screen size of your smart phone?");
 var tablet = prompt("What is the screen size of your tablet?");

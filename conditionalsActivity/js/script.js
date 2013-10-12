@@ -1,10 +1,24 @@
 //JavaScript
 
+var age = 11;
+var book;
+
+// if the child is under 10 the get green eggs, otherwise they get the time machine
+book = (age < 10) ? "Green Eggs and Ham" : "The Time Machine";
+console.log(book);
+
+var gpa = 48;
+//of the pa is over the min 2.0 score, the student can graduate
+if(gpa > 2.0){
+    console.log("you can graduate");
+}else{
+   console.log("gpa is too low"); 
+}
 
 
 
 
-var budget = 300;
+var budget = 100;
 var iPhonePrice = 199.99;
 var wonLottery = true;
 

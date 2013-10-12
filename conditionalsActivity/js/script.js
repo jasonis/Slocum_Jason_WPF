@@ -1,5 +1,19 @@
 //JavaScript
 
+var budget = 300;
+var iPhonePrice = 199.99;
+var paycheck = 200;
+
+//if the phone is less than our budget AND if our check is over 300
+if(iPhonePrice < budget && paycheck > 300){
+    console.log("We can buy the phone!");
+}else{
+    console.log("No phone for you!!");
+}
+
+
+
+
 
 var kidHeight = 44;
 var minHeight = 48;

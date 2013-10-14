@@ -44,5 +44,6 @@ if(nameAttempt != username){//identfies if attempted username matches correct us
 var frontLeft = prompt("What is the psi for your front left tire?");//user provided front left tire pressure
 var frontRight = prompt("What is the psi for your front right tire?");//user provided front right tire pressure
 var rearLeft = prompt("What is the psi for your rear left tire?");//user provided rear left tire pressure
+var rearRight = prompt("What is the psi for your rear right tire?");//user provided rear right tire pressure
 
 

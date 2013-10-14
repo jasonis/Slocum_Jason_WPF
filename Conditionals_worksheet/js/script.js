@@ -6,6 +6,7 @@
 
 
 // Last Chance for Gas!
+//Do you have enough gas to make it across the desert without filling up first?
 
 var nextFillup = 200;// This is how many miles away the next gas station is
 var mpg = Number(prompt("How many miles per gallon does your car get?"));// Shows the users mpg
@@ -24,6 +25,7 @@ if(milesLeft >= nextFillup){  // if the amount of miles that you can still drive
 
 
 // Check the Login
+//Does the attempted login info match the correct one?
 
 var nameAttempt = prompt("Please enter your username");//username provided by the user
 var pwordAttempt = prompt("Please enter your password");//password provided by the user
@@ -40,6 +42,7 @@ if(nameAttempt != username){//identfies if attempted username matches correct us
 
 
 // Tire Pressure I
+//Is the psi equal on the front tires and is the psi equal on the rear tires?
 
 var frontLeft = prompt("What is the psi for your front left tire?");//user provided front left tire pressure
 var frontRight = prompt("What is the psi for your front right tire?");//user provided front right tire pressure

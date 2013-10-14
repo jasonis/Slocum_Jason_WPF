@@ -17,7 +17,7 @@ var galsLeft = tankCapacity * gasDecimal;//this shows how many gallons of gas ar
 var milesLeft = mpg * galsLeft;//This shows how many more miles the user can still drive with their currrent gas
 
 if(milesLeft >= nextFillup){  // if the amount of miles that you can still drive is greater than or equal to the distance to the next gas station then you don't need to fill up now
-    console.log("Yes, you can make it without stopping for gas!");
-}else{
+    console.log("Yes, you can make it without stopping for gas!");// printout that says you'll make it
+}else{// this tells what will happen if you don't have enough gas to make it
     console.log("You only have " + galsLeft + " gallons of gas in your tank, better get gas now while you can!");
 }

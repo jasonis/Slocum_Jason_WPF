@@ -30,7 +30,7 @@ var username = ("student");//correct username
 var password = ("please");//correct password
 
 if(nameAttempt != username){//identfies if attempted username matches correct username
-    console.log("User not found.  Try again.");
+    console.log("User not found.  Try again.");//printout that is show if username is not correct
 }else if(pwordAttempt != password){
     console.log("Password does not match our records.");
 }else{

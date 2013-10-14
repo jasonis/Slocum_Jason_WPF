@@ -12,3 +12,4 @@ var mpg = Number(prompt("How many miles per gallon does your car get?"));// Show
 var currentGas = Number(prompt("What percent of gas do you still have in your tank?"));//Shows the percentage of gas that is still in the users tank
 var tankCapacity = Number(prompt("How many gallons does your tank hold?"));//How many gallons of gas their gas tank can hold
 
+var gasDecimal = currentGas / 100.0;//changes percentage of gas left into a decimal

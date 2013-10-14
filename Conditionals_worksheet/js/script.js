@@ -33,6 +33,6 @@ if(nameAttempt != username){//identfies if attempted username matches correct us
     console.log("User not found.  Try again.");//printout that is shown if username is not correct
 }else if(pwordAttempt != password){//identifies if attempted password matches correct password
     console.log("Password does not match our records.");//printout that is shown if the password is not correct
-}else{
+}else{//if the username and password are entered correctly then they will be welcomed
     console.log("Welcome," + username + "!");
 }

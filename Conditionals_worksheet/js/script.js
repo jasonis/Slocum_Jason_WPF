@@ -47,7 +47,7 @@ var rearLeft = prompt("What is the psi for your rear left tire?");//user provide
 var rearRight = prompt("What is the psi for your rear right tire?");//user provided rear right tire pressure
 
 var tires = [frontLeft, frontRight, rearLeft, rearRight];//array showing all four of the tire pressures
-if(tires[0] === tires[1] && tires[2] === tires[3]){
+if(tires[0] === tires[1] && tires[2] === tires[3]){//compares the psi of the front tires and the rear tires
     console.log("The tires pass spec!");
 }else{
     console.log("Get your tires checked out!");

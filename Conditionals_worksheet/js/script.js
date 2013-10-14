@@ -26,3 +26,6 @@ if(milesLeft >= nextFillup){  // if the amount of miles that you can still drive
 
 var nameAttempt = prompt("Please enter your username");//username provided by the user
 var pwordAttempt = prompt("Please enter your password");//password provided by the user
+var username = ("student");//correct username
+var password = ("please");//correct password
+

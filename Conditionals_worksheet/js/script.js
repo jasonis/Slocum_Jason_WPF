@@ -13,3 +13,4 @@ var currentGas = Number(prompt("What percent of gas do you still have in your ta
 var tankCapacity = Number(prompt("How many gallons does your tank hold?"));//How many gallons of gas their gas tank can hold
 
 var gasDecimal = currentGas / 100.0;//changes percentage of gas left into a decimal
+var galsLeft = tankCapacity * gasDecimal;//this shows how many gallons of gas are left in thte users tank

@@ -21,3 +21,8 @@ if(milesLeft >= nextFillup){  // if the amount of miles that you can still drive
 }else{// this tells what will happen if you don't have enough gas to make it
     console.log("You only have " + galsLeft + " gallons of gas in your tank, better get gas now while you can!");
 }
+
+// Check the Login
+
+var nameAttempt = prompt("Please enter your username");//username provided by the user
+var pwordAttempt = prompt("Please enter your password");//password provided by the user

@@ -29,3 +29,10 @@ var pwordAttempt = prompt("Please enter your password");//password provided by t
 var username = ("student");//correct username
 var password = ("please");//correct password
 
+if(nameAttempt != username){//identfies if attempted username matches correct username
+    console.log("User not found.  Try again.");
+}else if(pwordAttempt != password){
+    console.log("Password does not match our records.");
+}else{
+    console.log("Welcome," + username + "!");
+}

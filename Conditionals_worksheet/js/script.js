@@ -22,6 +22,7 @@ if(milesLeft >= nextFillup){  // if the amount of miles that you can still drive
     console.log("You only have " + galsLeft + " gallons of gas in your tank, better get gas now while you can!");
 }
 
+
 // Check the Login
 
 var nameAttempt = prompt("Please enter your username");//username provided by the user
@@ -34,5 +35,11 @@ if(nameAttempt != username){//identfies if attempted username matches correct us
 }else if(pwordAttempt != password){//identifies if attempted password matches correct password
     console.log("Password does not match our records.");//printout that is shown if the password is not correct
 }else{//if the username and password are entered correctly then they will be welcomed
-    console.log("Welcome," + username + "!");
+    console.log("Welcome," + username + "!");// printout if everything is correct
 }
+
+
+// Tire Pressure I
+
+var frontLeft = prompt("What is the psi for your front left tire?");//user provided front left tire pressure
+

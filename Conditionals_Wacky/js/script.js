@@ -11,11 +11,11 @@ var odor = prompt("Do you prefer a mild cheese or a stinky cheese?");//asks if t
 if(firmness == ""){//validates the firmness prompt to make sure a selection was made
     firmness = prompt("You forgot to enter your preferred cheese texture?  soft, medium or hard");
 }
-if(odor == ""){//validates the odor prompt to make sure that a selection was made
+if(odor == ""){//validates the odor prompt to make sure that a selection was made and if not re-asks the question
     odor = prompt("Do you prefer a mild cheese or a stinky cheese?");
 }
 
-if(firmness === "soft" && odor === "mild"){
+if(firmness === "soft" && odor === "mild"){//evaluates the results if the user selected soft and mild
     console.log("You might enjoy trying some Brie cheese.");
 }else if(firmness === "medium" && odor === "mild"){
     console.log("You might enjoy trying some Jarlsberg cheese.");

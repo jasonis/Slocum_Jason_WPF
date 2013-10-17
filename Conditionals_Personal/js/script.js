@@ -14,3 +14,6 @@ var earlyDiscount = prompt("Will you be booking your room more than two weeks in
 if(occupants == ""){
     occupants = Number(prompt("How many people will be staying in the room?"));
 }
+if(nights == ""){
+    nights = Number(prompt("How many nights will you be staying?"));
+}

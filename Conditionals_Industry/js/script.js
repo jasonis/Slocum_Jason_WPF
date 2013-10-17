@@ -6,7 +6,7 @@
 
 //Building a Website
 
-var standardSite = 200;
+var standardSite = 200;//given cost for a standard site
 var extraPages = 50;
 var subTotal;
 var morePages = prompt("Will your site need more than 5 pages?");

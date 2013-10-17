@@ -14,3 +14,6 @@ if(firmness == ""){
 if(odor == ""){
     odor = prompt("Do you prefer a mild cheese or a stinky cheese?");
 }
+
+if(firmness === "soft" && odor === "mild"){
+    console.log("You might enjoy trying some Brie cheese.");

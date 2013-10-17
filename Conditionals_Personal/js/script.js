@@ -36,3 +36,5 @@ if(earlyDiscount === "yes"){
 }
 
 var preTotal = roomCost * nights;
+var totalCost = preTotal + (preTotal * .055);
+console.log("Your total after adding a 5.5% sales tax will be $" + totalCost + ".  Please enjoy your stay!");

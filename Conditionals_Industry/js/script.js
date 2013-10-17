@@ -27,5 +27,5 @@ if(morePages === "yes"){//if the user requires more than 5 pages, this will figu
 
 graphics = prompt("Will you be supplying your own images and graphics?");//this defines the graphics var and prompts the user to find out if they have thier own images and graphics
 
-total = (graphics === "yes") ? total = (subTotal - 75) : total = subTotal;
+total = (graphics === "yes") ? total = (subTotal - 75) : total = subTotal;//ternary that figures out the new subtototal if they are supplying their own graphics
 console.log("Your total cost will be $" + total)

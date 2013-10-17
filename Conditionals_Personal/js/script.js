@@ -26,7 +26,7 @@ if(occupants > 4){//conditional statement to figure out the cost of the room if 
     console.log("You have more than four guests, so your room rate will be $" + roomCost);
 }
 
-if(earlyDiscount === "no" || earlyDiscount === ""){
+if(earlyDiscount === "no" || earlyDiscount === ""){//conditional statement to find out whether the user entered no or left the field blank
     console.log("There will be no discount applied at this time");
 }
 

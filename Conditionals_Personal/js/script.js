@@ -25,3 +25,7 @@ if(occupants > 4){
     roomCost = roomCost + 25
     console.log("You have more than four guests, so your room rate will be $" + roomCost);
 }
+
+if(earlyDiscount === "no" || earlyDiscount === ""){
+    console.log("There will be no discount applied at this time");
+}

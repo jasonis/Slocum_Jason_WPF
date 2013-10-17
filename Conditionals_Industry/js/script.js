@@ -18,11 +18,11 @@ if(morePages == ""){//validates the morePages prompt
 }
 
 if(morePages === "yes"){//if the user requires more than 5 pages, this will figure out their subtotal with the additional cost
-    subTotal = (Number(prompt("A standard site includes 5 pages, how many more will you need?")) * extraPages);
-    console.log(subTotal);
+    subTotal = (Number(prompt("A standard site includes 5 pages, how many more will you need?")) * extraPages + standardSite);
+    console.log("This is your current subtotal: $" + subTotal);
 }else{//this is the subtotal if no extra pages were added
     subTotal = standardSite;
-    console.log(subTotal);
+    console.log("This is your current subtotal: $" + subTotal);
 }
 
 graphics = prompt("Will you be supplying your own images and graphics?");//this defines the graphics var and prompts the user to find out if they have thier own images and graphics

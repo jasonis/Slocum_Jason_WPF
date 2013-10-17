@@ -11,3 +11,4 @@ var extraPages = 50;
 var subTotal;
 var morePages = prompt("Will your site need more than 5 pages?");
 var total;
+var graphics;

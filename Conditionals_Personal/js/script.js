@@ -30,7 +30,7 @@ if(earlyDiscount === "no" || earlyDiscount === ""){//conditional statement to fi
     console.log("There will be no discount applied at this time");
 }
 
-if(earlyDiscount === "yes"){
+if(earlyDiscount === "yes"){//this will figure out the price with the 10% early booking discount
     roomCost = (roomCost * .90)
     console.log("Your price after an early booking discount will be $" + roomCost); 
 }

@@ -25,7 +25,7 @@ if(firmness === "soft" && odor === "mild"){//evaluates the results if the user s
     console.log("You might enjoy trying some Stilton cheese.");
 }else if(firmness === "medium" && odor === "stinky"){//evaluates the results if the user chose medium and stinky
     console.log("You might enjoy trying some Aged Brick cheese.");
-}else if(firmness === "hard" && odor === "stinky"){
+}else if(firmness === "hard" && odor === "stinky"){//evaluates the results if the user chose hard and stinky
     console.log("You might enjoy trying some Bleu cheese.");
 }else{
     console.log("Are you a vegan?");

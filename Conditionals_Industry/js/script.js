@@ -24,3 +24,5 @@ if(morePages === "yes"){
     subTotal = standardSite;
     console.log(subTotal);
 }
+
+graphics = prompt("Will you be supplying your own images and graphics?");

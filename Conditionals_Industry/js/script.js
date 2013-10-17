@@ -11,7 +11,7 @@ var extraPages = 50;// this is how much extra it will cost if their site require
 var subTotal;// declaring the variable for the subtotal
 var morePages = prompt("Will your site need more than 5 pages?");//prompts the user to find out if they will require more than 5 pages
 var total;// declaring total var
-var graphics;
+var graphics;//declaring graphics var
 
 if(morePages == ""){
    morePages = prompt("Will your site need more than 5 pages?"); 

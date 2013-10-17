@@ -17,7 +17,7 @@ if(occupants == ""){//conditional statement to validate if the user entered the 
 if(nights == ""){// conditional statement to validate if the user entered the required datea in the form field
     nights = Number(prompt("How many nights will you be staying?"));
 }
-if(earlyDiscount == ""){
+if(earlyDiscount == ""){// conditional statement to validate if the user entered the required datea in the form field
     earlyDiscount = prompt("Will you be booking your room more than two weeks in advance?");
 }
 

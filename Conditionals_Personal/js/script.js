@@ -35,6 +35,6 @@ if(earlyDiscount === "yes"){//this will figure out the price with the 10% early 
     console.log("Your price after an early booking discount will be $" + roomCost); 
 }
 
-var preTotal = roomCost * nights;
+var preTotal = roomCost * nights;//this figures out the total before tax is added
 var totalCost = preTotal + (preTotal * .055);
 console.log("Your total after adding a 5.5% sales tax will be $" + totalCost + ".  Please enjoy your stay!");

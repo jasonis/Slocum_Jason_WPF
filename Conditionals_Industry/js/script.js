@@ -28,3 +28,4 @@ if(morePages === "yes"){
 graphics = prompt("Will you be supplying your own images and graphics?");
 
 total = (graphics === "yes") ? total = (subTotal - 75) : total = subTotal;
+console.log("Your total cost will be $" + total)

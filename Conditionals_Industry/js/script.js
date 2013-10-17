@@ -13,7 +13,7 @@ var morePages = prompt("Will your site need more than 5 pages?");//prompts the u
 var total;// declaring total var
 var graphics;//declaring graphics var
 
-if(morePages == ""){
+if(morePages == ""){//validates the morePages prompt
    morePages = prompt("Will your site need more than 5 pages?"); 
 }
 

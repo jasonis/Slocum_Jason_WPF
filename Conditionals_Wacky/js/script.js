@@ -28,5 +28,5 @@ if(firmness === "soft" && odor === "mild"){//evaluates the results if the user s
 }else if(firmness === "hard" && odor === "stinky"){//evaluates the results if the user chose hard and stinky
     console.log("You might enjoy trying some Bleu cheese.");
 }else{
-    console.log("Are you a vegan?");
+    console.log("Are you a vegan?");//printout if selections were not made at the prompts
 }

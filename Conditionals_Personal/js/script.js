@@ -29,3 +29,8 @@ if(occupants > 4){
 if(earlyDiscount === "no" || earlyDiscount === ""){
     console.log("There will be no discount applied at this time");
 }
+
+if(earlyDiscount === "yes"){
+    roomCost = (roomCost * .90)
+    console.log("Your price after an early booking discount will be $" + roomCost); 
+}

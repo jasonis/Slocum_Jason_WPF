@@ -11,7 +11,7 @@ var occupants = Number(prompt("How many people will be staying in the room?"));/
 var nights = Number(prompt("How many nights will you be staying?"));//this prompts the user to enter how many nights that they will be staying
 var earlyDiscount = prompt("Will you be booking your room more than two weeks in advance?");//this prompt them to see if they are booking their room more than 2 weeks in advance in order to receive a discounted rate
 
-if(occupants == ""){
+if(occupants == ""){//conditional statement to validate if the user entered the required data into the form field
     occupants = Number(prompt("How many people will be staying in the room?"));
 }
 if(nights == ""){

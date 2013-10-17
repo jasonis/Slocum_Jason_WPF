@@ -6,3 +6,4 @@
 
 //What type of cheese should you try?
 
+var firmness = prompt("What is your preferred cheese texture?  soft, medium or hard");

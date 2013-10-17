@@ -9,7 +9,7 @@
 var standardSite = 200;//given cost for a standard site
 var extraPages = 50;// this is how much extra it will cost if their site requires more than 5 pages
 var subTotal;// declaring the variable for the subtotal
-var morePages = prompt("Will your site need more than 5 pages?");
+var morePages = prompt("Will your site need more than 5 pages?");//prompts the user to find out if they will require more than 5 pages
 var total;
 var graphics;
 

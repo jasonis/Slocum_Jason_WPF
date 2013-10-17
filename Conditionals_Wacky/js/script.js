@@ -27,3 +27,6 @@ if(firmness === "soft" && odor === "mild"){
     console.log("You might enjoy trying some Aged Brick cheese.");
 }else if(firmness === "hard" && odor === "stinky"){
     console.log("You might enjoy trying some Bleu cheese.");
+}else{
+    console.log("Are you a vegan?");
+}

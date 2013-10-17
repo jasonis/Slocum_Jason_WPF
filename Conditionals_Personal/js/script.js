@@ -20,3 +20,8 @@ if(nights == ""){
 if(earlyDiscount == ""){
     earlyDiscount = prompt("Will you be booking your room more than two weeks in advance?");
 }
+
+if(occupants > 4){
+    roomCost = roomCost + 25
+    console.log("You have more than four guests, so your room rate will be $" + roomCost);
+}

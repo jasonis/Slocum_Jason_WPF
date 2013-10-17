@@ -21,7 +21,7 @@ if(earlyDiscount == ""){// conditional statement to validate if the user entered
     earlyDiscount = prompt("Will you be booking your room more than two weeks in advance?");
 }
 
-if(occupants > 4){
+if(occupants > 4){//conditional statement to figure out the cost of the room if they will be having more than 4 guests staying there
     roomCost = roomCost + 25
     console.log("You have more than four guests, so your room rate will be $" + roomCost);
 }

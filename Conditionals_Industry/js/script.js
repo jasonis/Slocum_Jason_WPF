@@ -5,3 +5,5 @@
 //          JavaScript
 
 //Building a Website
+
+var standardSite = 200;

@@ -8,3 +8,4 @@
 
 var standardSite = 200;
 var extraPages = 50;
+var subTotal;

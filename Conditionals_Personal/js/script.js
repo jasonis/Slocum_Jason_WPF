@@ -34,3 +34,5 @@ if(earlyDiscount === "yes"){
     roomCost = (roomCost * .90)
     console.log("Your price after an early booking discount will be $" + roomCost); 
 }
+
+var preTotal = roomCost * nights;

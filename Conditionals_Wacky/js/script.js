@@ -11,7 +11,7 @@ var odor = prompt("Do you prefer a mild cheese or a stinky cheese?");//asks if t
 if(firmness == ""){//validates the firmness prompt to make sure a selection was made
     firmness = prompt("You forgot to enter your preferred cheese texture?  soft, medium or hard");
 }
-if(odor == ""){
+if(odor == ""){//validates the odor prompt to make sure that a selection was made
     odor = prompt("Do you prefer a mild cheese or a stinky cheese?");
 }
 

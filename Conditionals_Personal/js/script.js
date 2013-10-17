@@ -14,7 +14,7 @@ var earlyDiscount = prompt("Will you be booking your room more than two weeks in
 if(occupants == ""){//conditional statement to validate if the user entered the required data into the form field
     occupants = Number(prompt("How many people will be staying in the room?"));
 }
-if(nights == ""){
+if(nights == ""){// conditional statement to validate if the user entered the required datea in the form field
     nights = Number(prompt("How many nights will you be staying?"));
 }
 if(earlyDiscount == ""){

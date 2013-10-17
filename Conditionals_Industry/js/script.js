@@ -7,3 +7,4 @@
 //Building a Website
 
 var standardSite = 200;
+var extraPages = 50;

@@ -20,7 +20,7 @@ if(morePages == ""){//validates the morePages prompt
 if(morePages === "yes"){//if the user requires more than 5 pages, this will figure out their subtotal with the additional cost
     subTotal = (Number(prompt("A standard site includes 5 pages, how many more will you need?")) * extraPages);
     console.log(subTotal);
-}else{
+}else{//this is the subtotal if no extra pages were added
     subTotal = standardSite;
     console.log(subTotal);
 }

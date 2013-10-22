@@ -2,7 +2,7 @@
 
 //  Calculate the circumference of a circle
 
-var radius = Number(prompt("Please enter the radius of the circle in inches"));
+var radius = Number(prompt("Please enter the radius of the circle in inches"));// prompts the user for the radius of the circle
 
 var totalCirc = calcCirc(12);
 

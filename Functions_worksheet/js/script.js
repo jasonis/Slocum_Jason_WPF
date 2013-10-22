@@ -4,11 +4,11 @@
 
 var radius = Number(prompt("Please enter the radius of the circle in inches"));// prompts the user for the radius of the circle
 
-var totalCirc = calcCirc(12);
+var totalCirc = calcCirc(12);// the totalCirc var creates a place for the result of the function to be held, calcCirc holds the argument for the function
 
 function calcCirc(radius){
     var circ = 2 * Math.PI * radius;
     return circ;
 }
 
-console.log("The circumference of the circle is " + totalCirc);
+console.log("The circumference of the circle is " + totalCirc) + " inches";

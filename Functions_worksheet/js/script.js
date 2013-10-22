@@ -5,3 +5,8 @@
 var radius = Number(prompt("Please enter the radius of the circle in inches"));
 
 var totalCirc = calcCirc(12);
+
+function calcCirc(radius){
+    var circ = 2 * Math.PI * radius;
+    return circ;
+}

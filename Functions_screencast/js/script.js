@@ -11,7 +11,7 @@ function outptMsg(){
     console.log(area);
 }*/
 
-var total = calcArea(30, 20);
+/*var total = calcArea(30, 20);
 
 function calcArea(w, h){
     var area = w * h;
@@ -29,14 +29,16 @@ dogYears(4);
 
 var functionName = function(){
     //code to run
+}*/
+
+var totalCirc = calcCirc(12);
+
+function calcCirc(radius){
+    var circ = 2 * Math.PI * radius;
+    return circ;
 }
 
-var calcArea = function(width, height){
-    var area = width * height;
-    return area;
-}
-
-
+console.log("The circle has a circumference of " + totalCirc);
 
 
 

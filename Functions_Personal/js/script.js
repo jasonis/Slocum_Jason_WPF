@@ -31,4 +31,6 @@ if(totalBMI >= 25){
 }else if(totalBMI <= 18.5){
     weightLoss = 18.5 - totalBMI;
     console.log("You should try to raise your BMI by at least " + weightLoss + " points.");
+}else{
+    console.log("You appear to be at an ideal body weight!");
 }

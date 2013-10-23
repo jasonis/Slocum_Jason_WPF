@@ -4,7 +4,7 @@
 
 // Find your Body Mass Index
 
-var weightLoss;
+var weightLoss;// variable for weightloss
 var weight = Number(prompt("What is your weight in pounds?"));
 var height = Number(prompt("What is your height in inches?"));
 
@@ -34,3 +34,4 @@ if(totalBMI >= 25){
 }else{
     console.log("You appear to be at an ideal body weight!");
 }
+

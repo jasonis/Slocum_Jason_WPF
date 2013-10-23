@@ -25,3 +25,7 @@ function calcBMI(weight, height){
 
 console.log("Your BMI is " + totalBMI + (totalBMI <= 18.5 ? ". You may be slightly underweight." : (totalBMI >= 18.6 && totalBMI <= 24.9 ? ". You have an ideal bodyweight." : (totalBMI >= 25 && totalBMI <= 29.9 ? ". You may be slightly overweight." : ". You may be slightly obese."))) );
 
+if(totalBMI >= 25){
+    weightLoss = totalBMI - 25;
+    console.log("You should try to reduce your BMI by at least " + weightLoss + " points.");
+}

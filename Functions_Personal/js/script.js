@@ -28,4 +28,7 @@ console.log("Your BMI is " + totalBMI + (totalBMI <= 18.5 ? ". You may be slight
 if(totalBMI >= 25){
     weightLoss = totalBMI - 25;
     console.log("You should try to reduce your BMI by at least " + weightLoss + " points.");
+}else if(totalBMI <= 18.5){
+    weightLoss = 18.5 - totalBMI;
+    console.log("You should try to raise your BMI by at least " + weightLoss + " points.");
 }

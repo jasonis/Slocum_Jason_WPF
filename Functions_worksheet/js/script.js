@@ -21,7 +21,7 @@ var victimLBS = Number(prompt("How many pounds does the victim weigh?"));// the 
 var totalStings  = calcStings(victimLBS);// this is the result var that holds the argument for the function of calcStings
 
 function calcStings(victimLBS){// this declares the function calcStings and lists its parameter
-    var stings = victimLBS * 8.666666667;
+    var stings = victimLBS * 8.666666667;// this creates the stings var which is the equation to figure out how many stings it would take to kill the animal
     return stings;
 }
 

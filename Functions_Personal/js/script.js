@@ -17,3 +17,8 @@ if(height == ""){
 }
 
 var totalBMI = calcBMI(weight, height);
+
+function calcBMI(weight, height){
+    var bmi = weight / (height * height) * 703;
+    return bmi;
+}

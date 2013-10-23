@@ -22,7 +22,7 @@ var totalStings  = calcStings(victimLBS);// this is the result var that holds th
 
 function calcStings(victimLBS){// this declares the function calcStings and lists its parameter
     var stings = victimLBS * 8.666666667;// this creates the stings var which is the equation to figure out how many stings it would take to kill the animal
-    return stings;
+    return stings;// this returns the value of the number of stings out of the function to the var totalStings
 }
 
 console.log("It takes " + totalStings + " stings to kill this animal");

@@ -18,7 +18,7 @@ console.log("The circumference of the circle is " + totalCirc) + " inches";// th
 //  The number of bee stings that are needed to kill an animal
 
 var victimLBS = Number(prompt("How many pounds does the victim weigh?"));// the number of pounds that the victim weighs
-var totalStings  = calcStings(victimLBS);
+var totalStings  = calcStings(victimLBS);// this is the result var that holds the argument for the function of calcStings
 
 function calcStings(victimLBS){
     var stings = victimLBS * 8.666666667;

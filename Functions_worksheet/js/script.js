@@ -8,7 +8,7 @@ var totalCirc = calcCirc(12);// the totalCirc var creates a place for the result
 
 function calcCirc(radius){//  this declares the function calcCirc and lists its parameter
     var circ = 2 * Math.PI * radius;// this creates the circ var which holds the equation for circumference, 2 times radius times PI
-    return circ;
+    return circ;// this returns the value of the circumference out of the function to the var totalCirc
 }
 
 console.log("The circumference of the circle is " + totalCirc) + " inches";

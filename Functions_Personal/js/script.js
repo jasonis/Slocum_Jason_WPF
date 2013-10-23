@@ -16,3 +16,4 @@ if(height == ""){
     height = Number(prompt("You have not entered your height.  What is your height in inches?"));
 }
 
+var totalBMI = calcBMI(weight, height);

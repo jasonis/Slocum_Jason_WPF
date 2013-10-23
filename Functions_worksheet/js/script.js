@@ -12,3 +12,7 @@ function calcCirc(radius){//  this declares the function calcCirc and lists its 
 }
 
 console.log("The circumference of the circle is " + totalCirc) + " inches";// this prints out the value of the circumference of the circle to the console
+
+
+
+//  The number of bee stings that are needed to kill an animal

@@ -11,3 +11,8 @@ var height = Number(prompt("What is your height in inches?"));
 if(weight == ""){
     weight = Number(prompt("You have not entered your weight.  What is your weight in pounds?"));
 }
+
+if(height == ""){
+    height = Number(prompt("You have not entered your height.  What is your height in inches?"));
+}
+

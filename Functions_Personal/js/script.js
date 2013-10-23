@@ -6,3 +6,4 @@
 
 var weightLoss;
 var weight = Number(prompt("What is your weight in pounds?"));
+var height = Number(prompt("What is your height in inches?"));

@@ -16,3 +16,5 @@ console.log("The circumference of the circle is " + totalCirc) + " inches";// th
 
 
 //  The number of bee stings that are needed to kill an animal
+
+var victimLBS = Number(prompt("How many pounds does the victim weigh?"));

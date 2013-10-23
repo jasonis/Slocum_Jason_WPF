@@ -22,3 +22,6 @@ function calcBMI(weight, height){
     var bmi = weight / (height * height) * 703;
     return bmi;
 }
+
+console.log("Your BMI is " + totalBMI + (totalBMI <= 18.5 ? ". You may be slightly underweight." : (totalBMI >= 18.6 && totalBMI <= 24.9 ? ". You have an ideal bodyweight." : (totalBMI >= 25 && totalBMI <= 29.9 ? ". You may be slightly overweight." : ". You may be slightly obese."))) );
+

@@ -25,3 +25,4 @@ function calcStings(victimLBS){
     return stings;
 }
 
+console.log("It takes " + totalStings + " stings to kill this animal");

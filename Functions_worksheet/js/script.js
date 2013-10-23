@@ -19,3 +19,9 @@ console.log("The circumference of the circle is " + totalCirc) + " inches";// th
 
 var victimLBS = Number(prompt("How many pounds does the victim weigh?"));
 var totalStings  = calcStings(victimLBS);
+
+function calcStings(victimLBS){
+    var stings = victimLBS * 8.666666667;
+    return stings;
+}
+

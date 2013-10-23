@@ -11,4 +11,4 @@ function calcCirc(radius){//  this declares the function calcCirc and lists its 
     return circ;// this returns the value of the circumference out of the function to the var totalCirc
 }
 
-console.log("The circumference of the circle is " + totalCirc) + " inches";
+console.log("The circumference of the circle is " + totalCirc) + " inches";// this prints out the value of the circumference of the circle to the console

@@ -25,4 +25,4 @@ function calcStings(victimLBS){// this declares the function calcStings and list
     return stings;// this returns the value of the number of stings out of the function to the var totalStings
 }
 
-console.log("It takes " + totalStings + " stings to kill this animal");
+console.log("It takes " + totalStings + " stings to kill this animal");// this is the printout to the console that shows the number of total stings it would take to kill the animal

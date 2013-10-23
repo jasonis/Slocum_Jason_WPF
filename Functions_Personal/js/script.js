@@ -3,3 +3,5 @@
 //          JavaScript
 
 // Find your Body Mass Index
+
+var weightLoss;

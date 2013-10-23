@@ -5,3 +5,4 @@
 // Find your Body Mass Index
 
 var weightLoss;
+var weight = Number(prompt("What is your weight in pounds?"));

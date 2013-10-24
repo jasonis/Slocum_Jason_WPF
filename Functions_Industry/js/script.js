@@ -22,3 +22,4 @@ function calcBits(fileSize){
     return totalSize;
 }
 
+console.log("After converting your file from megabytes, it's total size is " + bitSize + " megabits");

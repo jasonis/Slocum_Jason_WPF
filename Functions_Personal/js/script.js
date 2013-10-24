@@ -20,7 +20,7 @@ var totalBMI = calcBMI(weight, height);//variable that holds the returned amount
 
 function calcBMI(weight, height){//creates a new function and contains the parameters for it
     var bmi = weight / (height * height) * 703;//the equation for the function, weight divided by height times height
-    return bmi;
+    return bmi;//returns the value of the preceding equation out of the function
 }
 
 console.log("Your BMI is " + totalBMI + (totalBMI <= 18.5 ? ". You may be slightly underweight." : (totalBMI >= 18.6 && totalBMI <= 24.9 ? ". You have an ideal bodyweight." : (totalBMI >= 25 && totalBMI <= 29.9 ? ". You may be slightly overweight." : ". You may be slightly obese."))) );

@@ -22,7 +22,7 @@ if(u == ""){//conditional that is applied if the final velocity field is left em
 
 var totalImpulse = calcImpulse(m, v, u);//this variable will hold the return value of the function and also contains the argument for the function
 
-function calcImpulse(m, v, u){
+function calcImpulse(m, v, u){//this creates the function calcImpulse and shows its parameters
     var impulse = m * u - m * v;
     return impulse;
 }

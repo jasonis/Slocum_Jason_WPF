@@ -19,7 +19,7 @@ if(height == ""){// conditional in case the height field is left empty
 var totalBMI = calcBMI(weight, height);//variable that holds the returned amount of the function and also contains the argument for the function
 
 function calcBMI(weight, height){//creates a new function and contains the parameters for it
-    var bmi = weight / (height * height) * 703;
+    var bmi = weight / (height * height) * 703;//the equation for the function, weight divided by height times height
     return bmi;
 }
 

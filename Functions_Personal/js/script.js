@@ -8,7 +8,7 @@ var weightLoss;// variable for weightloss
 var weight = Number(prompt("What is your weight in pounds?"));// variable for how much the user weighs
 var height = Number(prompt("What is your height in inches?"));// variable for how tall the user is
 
-if(weight == ""){
+if(weight == ""){// conditional in case the weight field is left empty
     weight = Number(prompt("You have not entered your weight.  What is your weight in pounds?"));
 }
 

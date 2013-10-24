@@ -21,3 +21,8 @@ if(u == ""){
 }
 
 var totalImpulse = calcImpulse(m, v, u);
+
+function calcImpulse(m, v, u){
+    var impulse = m * u - m * v;
+    return impulse;
+}

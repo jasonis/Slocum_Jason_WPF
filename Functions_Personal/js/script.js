@@ -13,7 +13,7 @@ if(weight == ""){// conditional in case the weight field is left empty
 }
 
 if(height == ""){// conditional in case the height field is left empty
-    height = Number(prompt("You have not entered your height.  What is your height in inches?"));
+    height = Number(prompt("You have not entered your height.  What is your height in inches?"));//prompt that will be displayed if the field is empty
 }
 
 var totalBMI = calcBMI(weight, height);

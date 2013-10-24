@@ -21,7 +21,7 @@ function calcBits(fileSize){//creates the function called calcbits and shows its
     return totalSize;//this returns the value to a variable outside of the function
 }
 
-console.log("After converting your file from megabytes, it's total size is " + bitSize + " megabits");
+console.log("After converting your file from megabytes, it's total size is " + bitSize + " megabits");//printout that states the converted size of the file after performing the function
 
 var totalTime = calcSpeed(speed);
 

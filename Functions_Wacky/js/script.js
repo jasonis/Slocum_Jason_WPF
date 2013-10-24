@@ -24,7 +24,7 @@ var totalImpulse = calcImpulse(m, v, u);//this variable will hold the return val
 
 function calcImpulse(m, v, u){//this creates the function calcImpulse and shows its parameters
     var impulse = m * u - m * v;//this variable shows the equation that the function will be performing which mass times final velocity minus mass times initial velocity
-    return impulse;
+    return impulse;//this returns the value of the function to a variable outside of the function
 }
 
 console.log("The impulse was " + totalImpulse + " Ns");

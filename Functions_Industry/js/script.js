@@ -18,7 +18,7 @@ if(speed == ""){//conditional if the speed field is left empty
 var bitSize = calcBits(fileSize);//creates var for the output of the function and contains the arguments for the function 
 function calcBits(fileSize){//creates the function called calcbits and shows its parameters
     var totalSize = fileSize * 8;//process that the function will perform, the size of the file that the user inputs times 8
-    return totalSize;
+    return totalSize;//this returns the value to a variable outside of the function
 }
 
 console.log("After converting your file from megabytes, it's total size is " + bitSize + " megabits");

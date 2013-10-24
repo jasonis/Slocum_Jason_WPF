@@ -17,7 +17,7 @@ if(speed == ""){//conditional if the speed field is left empty
 
 var bitSize = calcBits(fileSize);//creates var for the output of the function and contains the arguments for the function 
 function calcBits(fileSize){//creates the function called calcbits and shows its parameters
-    var totalSize = fileSize * 8;
+    var totalSize = fileSize * 8;//process that the function will perform, the size of the file that the user inputs times 8
     return totalSize;
 }
 

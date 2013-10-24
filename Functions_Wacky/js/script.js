@@ -19,3 +19,5 @@ if(v == ""){
 if(u == ""){
     u = Number(prompt("You seem to have mistakenly left this field blank.  What is the final velocity of the object in m/s?"));
 }
+
+var totalImpulse = calcImpulse(m, v, u);

@@ -15,3 +15,7 @@ if(m == ""){
 if(v == ""){
     v = Number(prompt("You mistakenly left this field blank.  What is the initial velocity of the object in m/s?"));
 }
+
+if(u == ""){
+    u = Number(prompt("You seem to have mistakenly left this field blank.  What is the final velocity of the object in m/s?"));
+}

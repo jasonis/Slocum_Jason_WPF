@@ -27,4 +27,4 @@ function calcImpulse(m, v, u){//this creates the function calcImpulse and shows 
     return impulse;//this returns the value of the function to a variable outside of the function
 }
 
-console.log("The impulse was " + totalImpulse + " Ns");
+console.log("The impulse was " + totalImpulse + " Ns");//printout showing what the impulse of the object in question is

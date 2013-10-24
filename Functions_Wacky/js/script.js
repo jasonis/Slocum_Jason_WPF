@@ -20,7 +20,7 @@ if(u == ""){//conditional that is applied if the final velocity field is left em
     u = Number(prompt("You seem to have mistakenly left this field blank.  What is the final velocity of the object in m/s?"));//this prompt will be displayed if the final velocity field is not filled in
 }
 
-var totalImpulse = calcImpulse(m, v, u);
+var totalImpulse = calcImpulse(m, v, u);//this variable will hold the return value of the function and also contains the argument for the function
 
 function calcImpulse(m, v, u){
     var impulse = m * u - m * v;

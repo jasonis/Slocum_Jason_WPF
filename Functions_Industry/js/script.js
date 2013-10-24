@@ -11,7 +11,7 @@ if(fileSize == ""){//conditional if the fileSize field is left empty
     fileSize = Number(prompt("You seem to have left this field empty.  What is the size of the file you are downloading in megabytes?"));//this is the prompt that the user will receive if they leave the field empty
 }
 
-if(speed == ""){
+if(speed == ""){//conditional if the speed field is left empty
     speed = Number(prompt("You seem to have left this field empty.  What is the speed of your internet connection in megabits?"));
 }
 

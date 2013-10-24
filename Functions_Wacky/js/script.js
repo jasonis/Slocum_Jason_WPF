@@ -13,7 +13,7 @@ if(m == ""){//conditional that is applied if the mass is not entered
 }
 
 if(v == ""){//conditional that is applied if the initial velocity is not entered
-    v = Number(prompt("You mistakenly left this field blank.  What is the initial velocity of the object in m/s?"));
+    v = Number(prompt("You mistakenly left this field blank.  What is the initial velocity of the object in m/s?"));//this prompt will be displayed if the initial velocity is not entered 
 }
 
 if(u == ""){

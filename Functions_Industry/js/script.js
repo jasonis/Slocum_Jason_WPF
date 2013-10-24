@@ -27,7 +27,7 @@ var totalTime = calcSpeed(speed);//creates variable for the output of the functi
 
 function calcSpeed(speed){//creates the function and shows its parameters
     var time = bitSize / speed;//performs calculation to find the download time by dividing the bitSize from the previous function by the speed the user entered
-    return time;
+    return time;//this returns the value to the var totalTime outside of the function
 }
 
 console.log("It will take approximately " + totalTime + " seconds to complete your download");

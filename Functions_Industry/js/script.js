@@ -8,7 +8,7 @@ var fileSize = Number(prompt("What is the size of the file you are downloading i
 var speed = Number(prompt("What is the speed of your internet connection in megabits?"));//prompts the user for the speed of their internet connection
 
 if(fileSize == ""){//conditional if the fileSize field is left empty
-    fileSize = Number(prompt("You seem to have left this field empty.  What is the size of the file you are downloading in megabytes?"));
+    fileSize = Number(prompt("You seem to have left this field empty.  What is the size of the file you are downloading in megabytes?"));//this is the prompt that the user will receive if they leave the field empty
 }
 
 if(speed == ""){

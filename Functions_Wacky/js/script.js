@@ -7,3 +7,7 @@
 var m = Number(prompt("What is the mass of the object in question in kgs?"));
 var v = Number(prompt("What is the initial velocity of the object in m/s?"));
 var u= Number(prompt("What is the final velocity of the object in m/s?"));
+
+if(m == ""){
+    m = Number(prompt("You mistakenly left this field blank.  What is the mass of the object in question in kgs?"));
+}

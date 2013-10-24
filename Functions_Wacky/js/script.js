@@ -26,3 +26,5 @@ function calcImpulse(m, v, u){
     var impulse = m * u - m * v;
     return impulse;
 }
+
+console.log("The impulse was " + totalImpulse + " Ns");

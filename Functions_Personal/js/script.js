@@ -32,6 +32,6 @@ if(totalBMI >= 25){//conditional if the bmi is equal to or greater than 25
     weightLoss = 18.5 - totalBMI;//this calculates the difference between your bmi and the ideal range
     console.log("You should try to raise your BMI by at least " + weightLoss + " points.");//printout showing the results, if applicable, for the preceding equation
 }else{//if none of the above are applicable then this will happen
-    console.log("You appear to be at an ideal body weight!");
+    console.log("You appear to be at an ideal body weight!");//printout that shows what will happen if none of the above conditionals are found to be true
 }
 

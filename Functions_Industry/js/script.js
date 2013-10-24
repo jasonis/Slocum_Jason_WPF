@@ -30,5 +30,5 @@ function calcSpeed(speed){//creates the function and shows its parameters
     return time;//this returns the value to the var totalTime outside of the function
 }
 
-console.log("It will take approximately " + totalTime + " seconds to complete your download");
+console.log("It will take approximately " + totalTime + " seconds to complete your download");//printout that tells approximately how long your download will take
 

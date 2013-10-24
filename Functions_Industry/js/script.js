@@ -16,3 +16,9 @@ if(speed == ""){
 }
 
 var bitSize = calcBits(fileSize);
+
+function calcBits(fileSize){
+    var totalSize = fileSize * 8;
+    return totalSize;
+}
+

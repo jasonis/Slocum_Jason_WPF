@@ -12,7 +12,7 @@ if(m == ""){//conditional that is applied if the mass is not entered
     m = Number(prompt("You mistakenly left this field blank.  What is the mass of the object in question in kgs?"));//this prompt will be displayed if the mass field is initially left blank
 }
 
-if(v == ""){
+if(v == ""){//conditional that is applied if the initial velocity is not entered
     v = Number(prompt("You mistakenly left this field blank.  What is the initial velocity of the object in m/s?"));
 }
 

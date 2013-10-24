@@ -8,7 +8,7 @@ var m = Number(prompt("What is the mass of the object in question in kgs?"));//t
 var v = Number(prompt("What is the initial velocity of the object in m/s?"));//this variable creates a user prompt for the initial velocity of the object
 var u= Number(prompt("What is the final velocity of the object in m/s?"));//this variable creates a user prompt for the final velocity of the object
 
-if(m == ""){
+if(m == ""){//conditional that is applied if the mass is not entered
     m = Number(prompt("You mistakenly left this field blank.  What is the mass of the object in question in kgs?"));
 }
 

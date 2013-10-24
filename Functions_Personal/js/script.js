@@ -12,7 +12,7 @@ if(weight == ""){// conditional in case the weight field is left empty
     weight = Number(prompt("You have not entered your weight.  What is your weight in pounds?"));//prompt that will be displayed if the field is empty
 }
 
-if(height == ""){
+if(height == ""){// conditional in case the height field is left empty
     height = Number(prompt("You have not entered your height.  What is your height in inches?"));
 }
 

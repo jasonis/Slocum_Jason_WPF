@@ -12,7 +12,7 @@ if(fileSize == ""){//conditional if the fileSize field is left empty
 }
 
 if(speed == ""){//conditional if the speed field is left empty
-    speed = Number(prompt("You seem to have left this field empty.  What is the speed of your internet connection in megabits?"));
+    speed = Number(prompt("You seem to have left this field empty.  What is the speed of your internet connection in megabits?"));//user prompt that will appear if the field is no filled in
 }
 
 var bitSize = calcBits(fileSize);

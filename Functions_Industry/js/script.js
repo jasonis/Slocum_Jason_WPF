@@ -25,3 +25,9 @@ function calcBits(fileSize){
 console.log("After converting your file from megabytes, it's total size is " + bitSize + " megabits");
 
 var totalTime = calcSpeed(speed);
+
+function calcSpeed(speed){
+    var time = bitSize / speed;
+    return time;
+}
+

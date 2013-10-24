@@ -31,3 +31,4 @@ function calcSpeed(speed){
     return time;
 }
 
+console.log("It will take approximately " + totalTime + " seconds to complete your download");

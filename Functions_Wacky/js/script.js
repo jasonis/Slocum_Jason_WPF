@@ -16,7 +16,7 @@ if(v == ""){//conditional that is applied if the initial velocity is not entered
     v = Number(prompt("You mistakenly left this field blank.  What is the initial velocity of the object in m/s?"));//this prompt will be displayed if the initial velocity is not entered 
 }
 
-if(u == ""){
+if(u == ""){//conditional that is applied if the final velocity field is left empty
     u = Number(prompt("You seem to have mistakenly left this field blank.  What is the final velocity of the object in m/s?"));
 }
 

@@ -25,7 +25,7 @@ console.log("After converting your file from megabytes, it's total size is " + b
 
 var totalTime = calcSpeed(speed);//creates variable for the output of the function and contains the arguments for the function
 
-function calcSpeed(speed){
+function calcSpeed(speed){//creates the function and shows its parameters
     var time = bitSize / speed;
     return time;
 }

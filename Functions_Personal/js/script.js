@@ -23,7 +23,7 @@ function calcBMI(weight, height){//creates a new function and contains the param
     return bmi;//returns the value of the preceding equation out of the function
 }
 
-console.log("Your BMI is " + totalBMI + (totalBMI <= 18.5 ? ". You may be slightly underweight." : (totalBMI >= 18.6 && totalBMI <= 24.9 ? ". You have an ideal bodyweight." : (totalBMI >= 25 && totalBMI <= 29.9 ? ". You may be slightly overweight." : ". You may be slightly obese."))) );
+console.log("Your BMI is " + totalBMI + (totalBMI <= 18.5 ? ". You may be slightly underweight." : (totalBMI >= 18.6 && totalBMI <= 24.9 ? ". You have an ideal bodyweight." : (totalBMI >= 25 && totalBMI <= 29.9 ? ". You may be slightly overweight." : ". You may be slightly obese."))) );//ternary conditional for the console printout to determine what category your bmi falls in to
 
 if(totalBMI >= 25){
     weightLoss = totalBMI - 25;

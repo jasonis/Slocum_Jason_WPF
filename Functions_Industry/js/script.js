@@ -4,7 +4,7 @@
 
 //   Download time estimator
 
-var fileSize = Number(prompt("What is the size of the file you are downloading in megabytes?"));
+var fileSize = Number(prompt("What is the size of the file you are downloading in megabytes?"));//prompts the user for the size of the file that they will be downloading
 var speed = Number(prompt("What is the speed of your internet connection in megabits?"));
 
 if(fileSize == ""){
@@ -32,3 +32,4 @@ function calcSpeed(speed){
 }
 
 console.log("It will take approximately " + totalTime + " seconds to complete your download");
+

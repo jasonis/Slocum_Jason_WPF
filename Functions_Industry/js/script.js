@@ -15,3 +15,4 @@ if(speed == ""){
     speed = Number(prompt("You seem to have left this field empty.  What is the speed of your internet connection in megabits?"));
 }
 
+var bitSize = calcBits(fileSize);

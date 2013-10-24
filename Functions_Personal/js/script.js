@@ -5,7 +5,7 @@
 // Find your Body Mass Index
 
 var weightLoss;// variable for weightloss
-var weight = Number(prompt("What is your weight in pounds?"));
+var weight = Number(prompt("What is your weight in pounds?"));// variable for how much the user weighs
 var height = Number(prompt("What is your height in inches?"));
 
 if(weight == ""){
